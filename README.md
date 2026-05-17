@@ -34,13 +34,3 @@ more reading code, designing systems, and doing the work that matters.
 **Infrastructure:** Kubernetes, Helm, Flux, Docker, AWS, GitLab CI
 
 **Data:** PostgreSQL, MSSQL, Redis, Salesforce, PeopleSoft
-
-### Education
-
-- M.S. in IT Innovation — University of Nebraska Omaha
-- Graduate Certificate in Cybersecurity — University of Nebraska Omaha
-- B.S. in Entrepreneurship — Northern Arizona University
-
-### Links
-
-- **Blog:** [joshbowen.net](https://joshbowen.net)
