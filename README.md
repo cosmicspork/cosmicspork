@@ -15,10 +15,11 @@ HIPAA-compliant patient portal, a reading education platform in
 React/TypeScript + Laravel Nova with an OpenAPI-specified backend, and
 various tools for small businesses through consulting work.
 
-I coordinate intake, prioritization, and process improvement for an
-Admissions System Stakeholder group, and serve as SME for the org-wide
-AI tooling task forces, translating engineering realities into 
-leadership recommendations and driving adoption across our teams.
+Responsible for the full SDLC for various projects and systems. I
+coordinate intake, prioritization, and process improvement for diverse
+stakeholder groups. I serve as a SME on org-wide AI initiatives,
+translating engineering realities into leadership recommendations and
+driving adoption across teams.
 
 I work in agentic engineering daily: partnering with agents to architect,
 review, and ship production code. It has fundamentally changed my
