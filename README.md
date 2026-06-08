@@ -36,9 +36,9 @@ compounds.
 
 ### What I'm working with
 
-**Languages:** PHP, TypeScript, JavaScript, Python, Go, Rust, PowerShell, Bash
+**Languages:** PHP, TypeScript, Rust, Python, Go, PowerShell, Bash
 
-**Frameworks:** Laravel, Filament, Livewire, AlpineJS, Laminas, React, Django
+**Frameworks:** Laravel, Livewire, AlpineJS, Laminas, Svelte, React, Django
 
 **Infrastructure:** Kubernetes, Helm, Flux, Kustomize, Docker, AWS, Azure, GitLab CI, GitHub Actions
 
