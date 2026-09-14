@@ -28,7 +28,7 @@ leadership recommendations and driving adoption across teams.
 
 ### Selected projects
 
-- **[tracon](https://github.com/cosmicspork/tracon)** — Drive coding agents from any device while a supervisor you run enforces the boundary: sandboxed harnesses, brokered credentials, review-before-publish. One static Rust binary — and it develops itself from inside its own boundary.
+- **[tracon](https://github.com/cosmicspork/tracon)** — A self-hosted workspace for coding agents: start work on your machines, follow it from a browser or phone, and review changes before publication. A Rust supervisor keeps execution isolated, credentials brokered, and session history durable—so delegating work doesn’t mean giving up control.
 - **[kritee](https://github.com/cosmicspork/kritee)** — Laravel work-management app architected to expose every action as a tool for AI agents.
 - **[laravel-rag-chat](https://github.com/cosmicspork/laravel-rag-chat)** — Laravel RAG chat widget: SAML SSO, vector search, LLM proxy (UNO capstone for a K-12 district).
 - **[svastha](https://github.com/cosmicspork/svastha)** — Self-custodial, end-to-end-encrypted personal medical records: a Rust trust contract (native + WASM), a zero-knowledge relay, a Svelte PWA.
