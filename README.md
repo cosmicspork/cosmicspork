@@ -36,7 +36,7 @@ driving adoption across teams.
 - **[kritee](https://github.com/cosmicspork/kritee)**: Laravel work-management app (accounting, tasks, time tracking) architected to expose every action as a tool for AI agents.
 - **[svastha](https://github.com/cosmicspork/svastha)**: Self-custodial, end-to-end-encrypted personal medical records. A Rust trust contract compiled to native and WASM, a zero-knowledge relay that stores ciphertext and routing metadata only, and a Svelte PWA. Devices converge by pull, with last-write-wins that needs no shared clock.
 - **[laravel-rag-chat](https://github.com/cosmicspork/laravel-rag-chat)**: Laravel RAG chat widget with SAML SSO, vector search, and a provider-agnostic LLM proxy (UNO capstone for a K-12 district).
-- **[tabla](https://tabla.joshbowen.net)**: End-to-end-encrypted turn-based games over a zero-knowledge relay, [playable now](https://tabla.joshbowen.net). Hidden state without a trusted third party: a mental-poker tile deal with a verifiable shuffle, written from scratch in Rust. ([source](https://github.com/cosmicspork/tabla))
+- **[tabla](https://tabla.joshbowen.net)**: End-to-end-encrypted turn-based games over a zero-knowledge relay, [playable now](https://tabla.joshbowen.net). Hidden state without a trusted third party: a mental-poker tile deal with a verifiable shuffle, written from scratch in Rust.
 - **[consulta](https://github.com/cosmicspork/consulta)**: A read-only SQL gateway that makes a production database safe to hand an untrusted caller. Single SELECT/WITH only, inside a read-only transaction that is never committed.
 - **[homelab](https://github.com/cosmicspork/homelab)**: GitOps Kubernetes on DigitalOcean: Flux v2, SOPS + age secrets, cert-manager, ingress-nginx.
 
