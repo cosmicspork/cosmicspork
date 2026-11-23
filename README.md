@@ -1,6 +1,6 @@
 Howdy!
 
-I have been building and operating production systems for 10+ years. Below is what I've been building for myself recently. Most of it runs on infrastructure I maintain.
+I have been building and operating production systems for 10+ years. Below is what I've been building for myself recently: security boundaries for AI agents, and end-to-end-encrypted systems where the server only ever sees ciphertext. Most of it runs on infrastructure I maintain.
 
 ### [tracon](https://github.com/cosmicspork/tracon)
 
@@ -22,7 +22,7 @@ A communications archive and pager for Teams and Outlook web. A Chrome extension
 
 ### [tabla](https://github.com/cosmicspork/tabla)
 
-End-to-end-encrypted turn-based games over a zero-knowledge relay, [playable now](https://tabla.joshbowen.net). Hidden state without a trusted third party: a mental-poker tile deal with a verifiable shuffle, written from scratch in Rust.
+End-to-end-encrypted turn-based games over a zero-knowledge relay, [playable now](https://tabla.joshbowen.net). Hidden state without a trusted third party: the tiles are dealt with a mental-poker protocol and a verifiable shuffle, implemented in Rust.
 
 **Built with:** Rust, WASM, SvelteKit, Cloudflare Workers, cryptography (mental poker)
 
