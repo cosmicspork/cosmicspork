@@ -1,6 +1,6 @@
 Howdy!
 
-I have been building and operating production systems for 10+ years. Below is what I've been building for myself recently: security boundaries for AI agents, and end-to-end-encrypted systems where the server only ever sees ciphertext. Most of it runs on infrastructure I maintain.
+I have been building and operating production systems for 10+ years. Below is what I've been building for myself recently: security boundaries for AI agents, and end-to-end-encrypted systems. Most of it runs on infrastructure I maintain.
 
 ### [tracon](https://github.com/cosmicspork/tracon)
 
