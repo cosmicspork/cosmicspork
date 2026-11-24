@@ -4,7 +4,7 @@ I have been building and operating production systems for 10+ years. Below is wh
 
 ### [tracon](https://github.com/cosmicspork/tracon)
 
-A self-hosted workspace for coding agents with a boundary around them. It supervises harnesses like Claude Code in a sandbox behind an egress allowlist, brokers credentials so agents can't read them, and publishes a GitHub PR or GitLab MR only after a person approves the diff and the agent's evidence. One static Rust binary, on a laptop or a Kubernetes pod. Plugins add reviewed database and Jira access and a few small apps of my own. Built for how I want to work with agents.
+A self-hosted workspace for coding agents with a boundary around them. It supervises harnesses like Claude Code in a sandbox behind an egress allowlist, brokers credentials so agents can't read them, and publishes a GitHub PR or GitLab MR only after a person approves the diff and the agent's evidence. One static Rust binary, on a laptop or a Kubernetes pod. Plugins add reviewable database and Jira access, plus a few other small apps. Built for how I want to work with agents.
 
 **Built with:** Rust, Svelte, Tauri, containers, Kubernetes, MCP, end-to-end encryption, vector search
 
@@ -12,11 +12,11 @@ A self-hosted workspace for coding agents with a boundary around them. It superv
 
 Each runs as a plugin on a tracon node, and each also runs on its own.
 
-- **[sql-review](https://github.com/cosmicspork/sql-review)** gives agents SQL on Oracle, SQL Server and SQLite. Reads run on a read-only database account; a write is proposed, and runs on the write account only after a person approves it.
-- **[jira-review](https://github.com/cosmicspork/jira-review)** gives agents Jira Cloud and Data Center. A write is shown as a diff and applied only if the issue hasn't changed since.
-- **[workboard](https://github.com/cosmicspork/workboard)** is a local morning board for my own commitments over a read-only Jira snapshot, refreshed through jira-review so it never holds the Jira credential. TODO.txt yak-shaving in action.
-- **[hora](https://github.com/cosmicspork/hora)** tracks client hours. Agents log time as drafts that cite their evidence, and I confirm them.
-- **[hoja](https://github.com/cosmicspork/hoja)** builds structured documents with agents. People and agents edit the same records, every change records its author, and Typst renders the approved result.
+- **[sql-review](https://github.com/cosmicspork/sql-review)** gives agents SQL. Keeps read and write credentials seperate and queues writes for review and approval.
+- **[jira-review](https://github.com/cosmicspork/jira-review)** gives agents Jira. Queues writes for review and approval.
+- **[workboard](https://github.com/cosmicspork/workboard)** a fancy TODO.txt with agent tools and links to Jira via a read-only snapshot.
+- **[hora](https://github.com/cosmicspork/hora)** another review and approval queue to use with agents, for time tracking.
+- **[hoja](https://github.com/cosmicspork/hoja)** I got tired of halucinations in documents co-authored by agents, so this adds yet another review and approval queue with some fancy tricks.
 
 **Built with:** Rust, Svelte, SQLite, MCP, Typst
 
@@ -37,12 +37,6 @@ A communications archive and pager for Teams and Outlook web. A Chrome extension
 End-to-end-encrypted turn-based games over a zero-knowledge relay, [playable now](https://tabla.joshbowen.net). Hidden state without a trusted third party: the tiles are dealt with a mental-poker protocol and a verifiable shuffle, implemented in Rust.
 
 **Built with:** Rust, WASM, SvelteKit, Cloudflare Workers, cryptography (mental poker)
-
-### [laravel-work-management](https://github.com/cosmicspork/laravel-work-management) (archived)
-
-Formerly kritee. A Laravel work-management app (accounting, tasks, time tracking) architected to expose every action as a tool for AI agents. Every action runs as a user, the system, or an agent, and agent actions are logged and can be held in a review queue until a person approves them. I built it to manage my own work and retired it in November 2026, when the books moved to plain files and time tracking moved to hora.
-
-**Built with:** Laravel, PHP, Livewire, Pest
 
 ### Small Python tools
 
